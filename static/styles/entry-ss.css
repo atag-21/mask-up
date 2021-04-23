@@ -1,0 +1,86 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Verdana";
+  margin: 15px 30px;
+  font-size: 20px;
+  padding: 5px;
+  color: purple;
+  width: 40%;
+}
+.container {
+  background-color: lavender;
+  padding: 5px 18px 12px 18px;
+  border: 2px solid lightgrey;
+  border-radius: 4px;
+}
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea {
+  width: 50%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 10px;
+}
+.main_heading {
+  text-align: center;
+  font-family: sans-serif;
+}
+input[type="submit"] {
+  background-color: rgb(231, 119, 119);
+  color: darkred;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 20%;
+}
+input[type="submit"]:hover {
+  background-color: rgb(9, 245, 9);
+  color: darkgreen;
+}
+#videoElement {
+  border: 1px solid black;
+  width: 320px;
+  height: 240px;
+}
+#photo {
+  border: 1px solid black;
+  width: 320px;
+  height: 240px;
+}
+#canvas {
+  display: none;
+}
+.camera {
+  width: 340px;
+  display: inline-block;
+}
+
+.output {
+  width: 340px;
+  display: inline-block;
+}
+
+#startbutton {
+  display: block;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  bottom: 36px;
+  padding: 5px;
+  background-color: #6a67ce;
+  border: 1px solid rgba(255, 255, 255, 0.7);
+  font-size: 14px;
+  color: rgba(255, 255, 255, 1);
+  cursor: pointer;
+}
+
+.contentarea {
+  font-size: 16px;
+  font-family: Arial;
+  text-align: center;
+}
