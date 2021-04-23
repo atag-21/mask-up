@@ -1,0 +1,189 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  font-family: sans-serif;
+}
+
+.one {
+  width: 100%;
+  height: 100vh;
+  background-image: url(https://wallpaperaccess.com/full/1586320.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  overflow: hidden;
+}
+button {
+  color: black;
+  padding: 10px 25px;
+  background: transparent;
+  border: 1px solid black;
+  border-radius: 20px;
+  outline: none;
+  cursor: pointer;
+}
+.content {
+  color: black;
+  position: absolute;
+  top: 50%;
+  left: 8%;
+  transform: translateY(-50%);
+  z-index: 2;
+}
+h1 {
+  font-size: 80px;
+  margin: 10px 0 30px;
+  line-height: 80px;
+}
+
+.covid img {
+  width: 400px;
+  animation: covid 7s linear infinite;
+}
+
+.covid {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: absolute;
+  bottom: -70px;
+}
+
+@keyframes covid {
+  0% {
+    transform: translateY(0);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  70% {
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(-80vh);
+    opacity: 0;
+  }
+}
+.covid:nth-child(1) {
+  animation-delay: 5s;
+}
+.covid img:nth-child(2) {
+  animation-delay: 1s;
+}
+.covid img:nth-child(3) {
+  animation-delay: 7s;
+}
+.covid img:nth-child(4) {
+  animation-delay: 3s;
+}
+.covid img:nth-child(5) {
+  animation-delay: 6s;
+}
+.covid img:nth-child(6) {
+  animation-delay: 8s;
+}
+
+p.mask {
+  color: white;
+  position: absolute;
+  top: 130%;
+  left: 50%;
+  transform: rotate(20 deg);
+  z-index: 2;
+  font-size: 50px;
+}
+a,
+a:hover,
+a:focus,
+a:active {
+  text-decoration: none;
+  color: inherit;
+}
+p.about {
+  color: black;
+  position: absolute;
+  top: 250%;
+  left: 0%;
+  transform: rotate(20 deg);
+  z-index: 2;
+  font-size: 30px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.v {
+  background-color: rgb(231, 119, 119);
+  color: darkred;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 20%;
+}
+.v:hover {
+  background-color: rgb(9, 245, 9);
+  color: darkgreen;
+}
+.parallax5 {
+  background-image: url("https://i.ytimg.com/vi/mbYN1pMECJw/maxresdefault.jpg");
+
+  min-height: 800px;
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parallax4 {
+  background-image: url(https://cdn4.vectorstock.com/i/1000x1000/32/08/people-in-subway-train-bus-tram-public-transport-vector-30573208.jpg);
+
+  min-height: 500px;
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parallax3 {
+                      
+    background-image:url(https://news.cgtn.com/news/3067544d3163444f31457a4e7741444d3249444f31457a6333566d54/img/d62bd7d19f90453d83427b3b6cf05b84/d62bd7d19f90453d83427b3b6cf05b84.jpg) ;
+
+  
+  min-height:800px;
+
+  
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.parallax2 {
+                      
+    background-color: black;
+    
+    min-height: 500px;
+  
+    
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+  }
+  .parallax1 {
+                  
+    background-image: url("https://npr.brightspotcdn.com/dims4/default/b9b7fe1/2147483647/strip/true/crop/5005x2624+0+0/resize/880x461!/quality/90/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Flegacy%2Fsites%2Fkuer%2Ffiles%2F202007%2Fface-masks-illustration.png");
+  
+    
+    min-height: 500px;
+  
+    
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+  }
