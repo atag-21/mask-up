@@ -1,0 +1,5 @@
+/venv/
+instance/
+.webassets-cache
+__pycache__/
+.vscode/
