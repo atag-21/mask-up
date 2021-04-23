@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Verification</title>
+        <link rel="stylesheet" href="/static/styles/entry-ss.css">
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="/static/form.js"></script>
+    </head>
+<body> 
+    <div>
+        <form id="entry-form" action="/entry" method="post">
+            <b><h1 class="main_heading">Entry Access</h1></b>
+            <p>Travel Card Balance: <input type="number" name="balance" required placeholder="INR" id="bal"></p>
+            <br>
+            <div class="camera">
+                <video id="videoElement">Video stream not available.</video>
+            </div>
+            <div><button id="startbutton">Take photo</button></div>
+            <canvas id="canvas"></canvas>
+            <div class="output">
+                <img id="photo" alt="The screen capture will appear in this box.">
+            </div>
+            <input type="hidden" id="custId" name="b64p" value="nil">
+            <p><input type="submit" id="capture"></p>
+        </form>
+    </div>
+    <div id="gate-response"></div>
+</body>
+</html>
