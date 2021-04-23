@@ -1,10 +1,8 @@
-# Usage: `python detect_mask.py --image <image.ext>`
-
 # Supress tensorflow debug info
 from os import environ as osenv
 osenv["TF_CPP_MIN_LOG_LEVEL"] = "3"
 
-# import relevant packages
+# Import relevant packages
 from tensorflow.keras.applications.mobilenet_v2 import preprocess_input
 from tensorflow.keras.preprocessing.image import img_to_array
 from tensorflow.keras.models import load_model
