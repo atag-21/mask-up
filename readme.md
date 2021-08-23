@@ -1,6 +1,6 @@
 # Mask-Up
 
-Hacked together for **Ami-Hacks 2021**, Mask-Up is a web app that determines whether a person is wearing a face mask and applies it to a transit system entry gate (say Delhi Metro's) through a demonstrative simulation. 
+Hacked together for **Ignite Hacks**, Mask-Up is a web app that determines whether a person is wearing a face mask and applies it to a transit system entry gate (say Delhi Metro's) through a demonstrative simulation. 
 
 ## The Problem
 Living through the ongoing **COVID-19** pandemic has made us realize how important face masks are for **public health**. While brainstorming for our SpiritHack1.0 idea, we realized that currently, transit systems make use of security personnel to ensure compliance with **COVID-19 protocol**, particularly face masks.
